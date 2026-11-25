@@ -1,0 +1,1 @@
+We launder bloated context windows for lazy AI agents: 200k tokens shrunk to 800 for $0.40 a wash, then upsell the $9/month 'never re-read your homework' plan they forget to cancel.
