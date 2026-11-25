@@ -8,8 +8,12 @@ function pitchText(): string {
   return hook + offer;
 }
 
+function defaultFolder(): string {
+  return "/output";
+}
+
 function destinationFolder(): string {
-  return process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
+  return process.env.MAKEFUN_OUTPUT_DIR ?? defaultFolder();
 }
 
 function emitPitch(): void {
